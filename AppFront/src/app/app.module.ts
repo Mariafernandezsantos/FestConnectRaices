@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FavcardComponent } from './components/favcard/favcard.component';
 import { RrssComponent } from './components/rrss/rrss.component';
 import { IconsComponent } from './components/icons/icons.component';
+import { PaginatorComponent } from './components/paginator/paginator.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { IconsComponent } from './components/icons/icons.component';
     FooterComponent,
     FavcardComponent,
     RrssComponent,
-    IconsComponent
+    IconsComponent,
+    PaginatorComponent
   ],
   imports: [
     BrowserModule,
