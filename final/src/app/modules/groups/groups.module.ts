@@ -13,6 +13,7 @@ import { VideoclipsComponent } from './components/videoclips/videoclips.componen
 import { PlaylistGroupComponent } from './components/playlist-group/playlist-group.component';
 import { LoginComponent } from '../global/login/login.component';
 import { HomeComponent } from 'src/app/shared/views/home/home.component';
+import { FavGroupComponent } from './components/fav-group/fav-group.component';
 
 
 
@@ -35,6 +36,7 @@ import { HomeComponent } from 'src/app/shared/views/home/home.component';
     VideoclipsComponent,
     PlaylistGroupComponent,
     LoginComponent,
+    FavGroupComponent
     // HomeComponent,
   ],
   imports: [CommonModule, GroupsRoutingModule],

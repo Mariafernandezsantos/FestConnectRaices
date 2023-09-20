@@ -9,6 +9,7 @@ import { NewMusicComponent } from './components/new-music/new-music.component';
 import { PlaylistGroupComponent } from './components/playlist-group/playlist-group.component';
 import { VideoclipsComponent } from './components/videoclips/videoclips.component';
 import { HomeComponent } from 'src/app/shared/views/home/home.component';
+import { FavGroupComponent } from './components/fav-group/fav-group.component';
 
 
 
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'new', component: NewMusicComponent },
   { path: 'videos', component: VideoclipsComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'fav', component: FavGroupComponent },
 ];
 
 
