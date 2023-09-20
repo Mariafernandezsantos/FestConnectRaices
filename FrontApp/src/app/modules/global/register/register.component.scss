@@ -1,0 +1,50 @@
+.viewhome {
+  display: flex;
+  margin-left: 35%;
+  width: 10%;
+  img{
+    width: 250%;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-outline {
+  width: 35%;
+  justify-content: center;
+  margin-left: 30%;
+
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #DAFF48;
+}
+
+
+button{
+  display: flex;
+  background-color: #DAFF48;
+  border: 1px solid #f7faef;
+  border-radius: 0.25rem;
+  height: 2.5rem;
+  width: 7rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #0c0c0c;
+  margin-left: 43%;
+}
+
+
+
+
+
+
+
+

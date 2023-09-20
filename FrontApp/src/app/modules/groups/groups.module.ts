@@ -2,26 +2,31 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { GroupsRoutingModule } from './groups-routing.module';
-import { ProfailGroupComponent } from './components/profail-group/profail-group.component';
 import { RrssComponent } from './components/rrss/rrss.component';
 import { ProfailCardComponent } from './components/profail-card/profail-card.component';
 import { TracksComponent } from './components/tracks/tracks.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HeaderComponent } from './components/header/header.component';
-
+import { ProfailGroupsComponent } from './views/profail-groups/profail-groups.component';
+import { PlaylistComponent } from './views/playlist/playlist.component';
 
 @NgModule({
   declarations: [
-    ProfailGroupComponent,
     RrssComponent,
     ProfailCardComponent,
     TracksComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProfailGroupsComponent,
+    PlaylistComponent
   ],
   imports: [
     CommonModule,
     GroupsRoutingModule
+  ],
+
+  exports: [
+    ProfailGroupsComponent
   ]
 })
-export class GroupsModule { }
+export class GroupsModule {}

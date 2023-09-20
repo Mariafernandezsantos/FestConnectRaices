@@ -1,0 +1,91 @@
+.card-festivals {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  border: 2px solid #daff48;
+}
+
+.card {
+  background-color: black;
+  align-items: center;
+}
+
+.card-img-top {
+  height: 500px;
+  width: 350px;
+  object-fit: contain;
+  justify-self: start;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #daff48;
+}
+
+h2,
+h5 {
+  color: #daff48;
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-size: 30px;
+}
+
+.btn {
+  display: flex;
+  background-color: #daff48;
+  border: 1px solid #f7faef;
+  a {
+    color: #0c0c0c;
+  }
+}
+// .card {
+//   background-color: black;
+//   align-items: center;
+//   border: 2px solid #DAFF48;
+//   border-radius: 10px;
+//   }
+
+//   .card-img-top {
+//     height: 500px;
+//     width: 350px;
+//     object-fit: contain;
+//     justify-self: start;
+//   }
+//    .card-title {
+//     font-size: 20px;
+//     font-weight: bolder;
+//     color: #DAFF48;
+//   }
+
+//  h2 {
+//   color: #daff48;
+//   text-align: center;
+//   margin-bottom: 3rem;
+//   margin-top: 3rem;
+//   font-size: 30px;
+// }
+
+// h5 {
+//   color: #daff48;
+//   font-size: 20px;
+// }
+
+// p {
+//   color: #daff48;
+// }
+
+// .btn {
+//   display: flex;
+//   background-color: #daff48;
+//   border: 1px solid #f7faef;
+//   a {
+//     color: #0c0c0c;
+//   }
+// }

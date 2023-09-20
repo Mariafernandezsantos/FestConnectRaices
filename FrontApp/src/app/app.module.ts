@@ -2,17 +2,42 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { GroupsRoutingModule } from './modules/groups/groups-routing.module'
+
 import { AppComponent } from './app.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
+import { HeaderHomeComponent } from './shared/components/header-home/header-home.component';
+import { CarruselHomeComponent } from './shared/components/carrusel-home/carrusel-home.component';
+import { FeaturesArtistComponent } from './shared/components/features-artist/features-artist.component';
+import { FeaturesFestivalsComponent } from './shared/components/features-festivals/features-festivals.component';
+import { GlobalRoutingModule } from './modules/global/global-routing.module';
+import { HomeComponent } from './shared/views/home/home.component';
+
+
+
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    HeaderHomeComponent,
+    CarruselHomeComponent,
+    FeaturesArtistComponent,
+    FeaturesFestivalsComponent,
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GlobalRoutingModule,
+    GroupsRoutingModule,
   ],
+  exports: [],
+
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
