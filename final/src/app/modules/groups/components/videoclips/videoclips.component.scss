@@ -1,0 +1,78 @@
+.container-fluid{
+  background-color: black;
+}
+
+button{
+  color: #DAFF48;
+}
+
+.logo{
+ img{
+    width:100px;
+    height:84px;
+ }
+}
+
+
+h1{
+  text-align: center;
+  color: #DAFF48;
+  margin-bottom: 3%;
+
+}
+
+#video1{
+  border: 2px solid#DAFF48;
+  border-radius: 2%;
+  margin: 30px;
+  margin-left: 12%;
+}
+
+#video2{
+  border: 2px solid#DAFF48;
+  border-radius: 2%;
+  margin: 30px;
+
+}
+
+#video3{
+  border: 2px solid#DAFF48;
+  border-radius: 2%;
+  margin: 30px;
+
+}
+
+#video4{
+  border: 2px solid#DAFF48;
+  border-radius: 2%;
+  margin: 30px;
+  margin-left: 12%;
+}
+
+
+.page-link{
+  display: flex;
+  background-color: #0c0c0c;
+
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+  svg{
+  width: 25px;
+  height: 25px;
+  color:#DAFF48;
+  margin: -100px;
+  }
+
+p{
+  color: #DAFF48;
+  text-align: center;
+  margin: 10px;
+}
+
+a{
+  color: #DAFF48;
+}

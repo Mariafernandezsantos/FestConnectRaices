@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nombre": "Canción 1",
+    "artista": "Algaire",
+    "perfil": "Perfil del Artista 1",
+    "playlist": "Playlist 1",
+    "spotifyLink": "https://open.spotify.com/embed/track/6Yw1oA5tmosh1Be8A5E1bC?utm_source=generator&theme=0"
+  },
+
+
+
+  {
+    "id": 2,
+    "nombre": "Canción 2",
+    "artista": "Xavier Díaz",
+    "perfil": "Perfil del Artista 2",
+    "spotifyLink":""
+  },
+
+  {
+    "id": 3,
+    "nombre": "Canción 2",
+    "artista": "L&R",
+    "perfil": "Perfil del Artista 2",
+    "spotifyLink":""
+  },
+
+  {
+    "id": 4,
+    "nombre": "Canción 2",
+    "artista": "Neomak",
+    "perfil": "Perfil del Artista 2",
+    "spotifyLink":""
+  },
+
+  {
+    "id": 5,
+    "nombre": "Canción 2",
+    "artista": "Tanxugueiras",
+    "perfil": "Perfil del Artista 2",
+    "spotifyLink":""
+  },
+
+  {
+    "id": 6,
+    "nombre": "Canción 2",
+    "artista": "Rodrigo Cuevas",
+    "perfil": "Perfil del Artista 2",
+     "spotifyLink":""
+  }
+]
